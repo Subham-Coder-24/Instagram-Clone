@@ -1,0 +1,77 @@
+.story {
+  color: white;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.story-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+.story-item img {
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  padding: 2px;
+  background: linear-gradient(
+    rgb(160, 41, 193) 0%,
+    rgb(226, 217, 39) 15%,
+    rgb(187, 45, 52) 100%
+  );
+  border-radius: 50%;
+}
+.dialog {
+  background-color: rgb(28, 25, 25);
+  min-width: 300px;
+  height: 60vh;
+  padding: 5vmax;
+}
+.create {
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.form > input[type="text"] {
+  width: 100%;
+  padding: 1vmax;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font: 100 1.2rem "Roboto", sans-serif;
+}
+.form > input[type="file"] {
+  color: aliceblue;
+  border-radius: 30px;
+  margin: 2vmax;
+}
+
+.form > input[type="file"]::-webkit-file-upload-button {
+  background-color: rgb(38, 63, 173);
+  color: white;
+  width: 100%;
+  padding: 1vmax;
+  border-radius: 30px;
+  border: none;
+  font: 100 1.2rem "Roboto", sans-serif;
+}
